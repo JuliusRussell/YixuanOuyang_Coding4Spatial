@@ -6,6 +6,7 @@ img {
 }
 
 body {
+    border: 500px grey;
     font-family: 'Dancing Script', cursive;
     background-color: rgb(224, 255, 234);
     text-align: left;
@@ -15,5 +16,6 @@ body {
     left: 250px;
     right: 250px;
 }
+
 
 
