@@ -1,0 +1,19 @@
+img {
+    size: 50%;
+    position: relative;
+    left: 0px;
+    opacity: 70%;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(224, 255, 234);
+    text-align: left;
+    color: rgb(46, 46, 46);
+    text-decoration: white;
+    position: absolute;
+    left: 250px;
+    right: 250px;
+}
+
+
