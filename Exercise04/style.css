@@ -1,0 +1,60 @@
+img {
+    size: 50%;
+    position: relative;
+    left: 0px;
+    opacity: 70%;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    border: 500px grey;
+    background-color: rgb(224, 255, 234);
+}
+
+.title {
+    display: block;
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding: 10px 40px;
+}
+
+.author_l {
+    display: block;
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding: 10px 40px;
+}
+
+.author_r {
+    display: block;
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.text_l {
+    display: block;
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding: 10px 40px;
+}
+
+.text_r {
+    display: block;
+    float: right;
+    width: 45%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.sign {
+    display: block;
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding: 10px 40px;
+}
