@@ -40,8 +40,22 @@ header {
     cursor: pointer;
 }
 
-.content {
+#content {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 30px;
-    left: 60%;
+    top:50px;
+    left: 45%;
+    width: 40%;
+    line-height: 60px;
 }
+
+#education {
+    line-height: 40px;
+}
+
+a, area, button, [role="button"], input, label, select, summary, textarea {
+    touch-action: manipulation;
+}
+
+
