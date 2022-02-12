@@ -16,6 +16,11 @@ body {
     -webkit-text-size-adjust: 100%;
     color: #7A7C80;
     min-height: 100%;
+    animation:fadein 5s linear 1;
+        -webkit-animation:fadein 2s linear 1;
+        -moz-animation:fadein 2s linear 1;
+        -o-animation:fadein 2s linear 1;
+        -ms-animation:fadein 2s linear 1;
 }
 
 header {
@@ -54,8 +59,50 @@ header {
     line-height: 40px;
 }
 
-a, area, button, [role="button"], input, label, select, summary, textarea {
-    touch-action: manipulation;
+.GSAPP {
+    animation:fadein 5s linear 1;
+}
+
+
+
+
+
+@keyframes fadein{
+    0%{opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein{
+    0%{opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+@-moz-keyframes fadein{
+    0%{opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein{
+    0%{opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+@-ms-keyframes fadein{
+    0%{opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 
