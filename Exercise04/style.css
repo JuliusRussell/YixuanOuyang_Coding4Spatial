@@ -1,54 +1,45 @@
-img {
-    size: 50%;
-    position: relative;
-    left: 0px;
-    opacity: 70%;
-}
-
 body {
     font-family: 'Dancing Script', cursive;
     border: 500px grey;
     background-color: rgb(224, 255, 234);
 }
 
+.home{
+    text-align: left;
+}
+
 .title {
     display: block;
-    float: left;
-    width: 45%;
+    text-align: center;
+    float: center;
+    width: 100%;
     height: 100%;
-    padding: 10px 40px;
 }
 
-.author_l {
+span.text_l {
     display: block;
     float: left;
-    width: 45%;
+    width: 100%;
     height: 100%;
-    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
 }
 
-.author_r {
-    display: block;
-    float: right;
-    width: 45%;
-    height: 100%;
-    padding: 10px 20px;
-}
 
-.text_l {
+
+span.text_r {
     display: block;
     float: left;
-    width: 45%;
+    width: 100%;
     height: 100%;
-    padding: 10px 40px;
-}
-
-.text_r {
-    display: block;
-    float: right;
-    width: 45%;
-    height: 100%;
-    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
 }
 
 .sign {
@@ -58,3 +49,5 @@ body {
     height: 100%;
     padding: 10px 40px;
 }
+
+
