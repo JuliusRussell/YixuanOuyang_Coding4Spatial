@@ -41,7 +41,7 @@
         <div id="content" style="visibility: visible;">
             <section id="education">
                 <h2>Education</h2>
-                <i class="GSAPP">GSAPP, Columbia University</i>
+                <i class="GSAPP"><button onclick="myfunction()">GSAPP, Columbia University</button></i>
                 <p></p>
                 <i class="SYSU">Geography & Planning School, Sun Yat-sen University</i>
             </section>
@@ -57,5 +57,11 @@
         </div>
     </div>
 
+
+<script>
+    function myfunction() {
+        document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+        }
+</script>    
 </body>
 </html>
