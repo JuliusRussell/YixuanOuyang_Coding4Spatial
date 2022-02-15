@@ -21,6 +21,7 @@ span.text_l {
     float: left;
     width: 45%;
     height: 100%;
+    padding: 20px 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -35,6 +36,7 @@ span.text_r {
     float: right;
     width: 45%;
     height: 100%;
+    padding: 20px 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
