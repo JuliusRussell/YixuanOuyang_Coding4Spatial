@@ -19,10 +19,10 @@ body {
 span.text_l {
     display: block;
     float: left;
-    width: 100%;
+    width: 45%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
     justify-content: space-around;
@@ -32,11 +32,11 @@ span.text_l {
 
 span.text_r {
     display: block;
-    float: left;
-    width: 100%;
+    float: right;
+    width: 45%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-items: stretch;
     justify-content: space-around;
