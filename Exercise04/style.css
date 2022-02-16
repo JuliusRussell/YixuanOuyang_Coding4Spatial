@@ -19,7 +19,6 @@ body {
 span.text_l {
     display: block;
     float: left;
-    width: 45%;
     height: 100%;
     padding: 20px 20px;
     display: flex;
@@ -29,12 +28,20 @@ span.text_l {
     justify-content: space-around;
 }
 
+.page {
+    display: flex;
+    flex-direction: row;
+}
 
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
 
 span.text_r {
     display: block;
     float: right;
-    width: 45%;
     height: 100%;
     padding: 20px 20px;
     display: flex;
@@ -44,12 +51,6 @@ span.text_r {
     justify-content: space-around;
 }
 
-.sign {
-    display: block;
-    float: left;
-    width: 45%;
-    height: 100%;
-    padding: 10px 40px;
-}
+
 
 
