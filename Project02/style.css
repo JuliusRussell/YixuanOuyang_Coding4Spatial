@@ -55,13 +55,16 @@ header {
     position: absolute;
     top:50px;
     left: 45%;
-    width: 40%;
+    width: 55%;
     line-height: 60px;
 }
 
 #education {
-    color: aliceblue;
     line-height: 40px;
+}
+
+#edu_title {
+    color: aliceblue;   
 }
 
 #articles {
@@ -70,13 +73,11 @@ header {
 }
 
 #work {
-    color: aliceblue;
     line-height: 40px;
 }
 
-#interest {
-    color: aliceblue;
-    line-height: 40px;
+#w-t {
+    color: aliceblue;   
 }
 
 a {
@@ -85,8 +86,18 @@ a {
     list-style: none;
 }
 
+br {
+    display: block;
+    content: "";
+    margin-top: 30px;
+}
 
-
+.homebutton {
+    position: absolute;
+    top: 570px;
+    right:10px;
+    padding: 0px 10px;
+}
 
 @keyframes fadein{
     0%{opacity: 0;
