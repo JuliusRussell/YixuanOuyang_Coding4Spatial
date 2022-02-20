@@ -55,7 +55,27 @@ header {
     -ms-animation:fadein 2s linear 1;
 }
 
+.name {
+    color: aliceblue;
+}
+
 #education {
+    color: aliceblue;
+    line-height: 40px;
+}
+
+#articles {
+    color: aliceblue;
+    line-height: 40px;
+}
+
+#work {
+    color: aliceblue;
+    line-height: 40px;
+}
+
+#interest {
+    color: aliceblue;
     line-height: 40px;
 }
 

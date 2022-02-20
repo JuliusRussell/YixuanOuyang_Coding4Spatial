@@ -35,6 +35,10 @@ header {
     line-height: 2.5em;
 }
 
+.name {
+    color: aliceblue;
+}
+
 #contact a svg path {
     fill: #7A7C80;
 }
@@ -56,6 +60,22 @@ header {
 }
 
 #education {
+    color: aliceblue;
+    line-height: 40px;
+}
+
+#articles {
+    color: aliceblue;
+    line-height: 40px;
+}
+
+#work {
+    color: aliceblue;
+    line-height: 40px;
+}
+
+#interest {
+    color: aliceblue;
     line-height: 40px;
 }
 
