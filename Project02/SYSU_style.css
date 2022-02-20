@@ -55,9 +55,28 @@ header {
     -ms-animation:fadein 2s linear 1;
 }
 
+a {
+    color: aliceblue;
+}
+
+.name {
+    color: aliceblue;
+}
+
 #education {
+    color: aliceblue;
     line-height: 40px;
 }
+
+#edu_detail {
+    width: 100%;
+    line-height: 2.3em;
+}
+
+#sysu_d {
+    line-height: 2.3em;
+}
+
 
 .homebutton {
     position: absolute;
