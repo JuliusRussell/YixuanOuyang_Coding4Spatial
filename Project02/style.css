@@ -80,6 +80,11 @@ header {
     color: aliceblue;   
 }
 
+a:hover {
+    color: aliceblue;
+    transition: 0.8s;
+}
+
 a {
     text-decoration: none;
     color:#7A7C80;
