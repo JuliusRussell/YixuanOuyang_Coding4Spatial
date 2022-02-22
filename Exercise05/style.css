@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
 }
 
 html, body {
@@ -12,38 +13,63 @@ html, body {
 .container {
     display: flex;
     flex-direction: column;
-    background: tomato;
+    background: rgb(206, 206, 206);
 }
 
-header, footer {
-    height: 20vh;
-    background: yellow;
+.home {
+    position: absolute;
+    padding: 15px 15px;
+    font-size: 10px;
+}
+
+
+header {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    background: whitesmoke;
+    padding: 5px 100px;
+}
+
+footer {
+    position: fixed;
+    left:50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    background: whitesmoke;
+    padding: 10px 0px;
+    font-size: 10px;
 }
 
 main {
     display: flex;
     flex-direction: row;
-    height: 60vh;
+    padding: 30px 50px;
+    line-height: 1.8em;
 }
 
 section {
-    width: 60%;
-    background: blue;
+    width: 50%;
+    padding: 30px 30px;;
 }
 
 aside {
-    width: 40%;
-    background: green;
+    width: 50%;
+    padding: 30px 30px;;
 }
 
-@media(max-width:600px) {
+@media(max-width:632px) {
+    header {
+        font-size: 15px;
+    }
     main {
         flex-direction: column;
+        padding: 50px 20px;
+        font-size: 12px;
     }
     section {
         width: 100%;
         height: 50%;
-        flex: 3;
     }
     aside {
         width: 100%;
