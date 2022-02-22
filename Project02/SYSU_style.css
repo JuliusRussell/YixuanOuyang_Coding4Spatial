@@ -20,11 +20,11 @@ body {
 
 header {
     position: absolute;
-    top: 40vh;
     right: 58%;
     width: 350px;
+    top: 50%;
+    transform: translate(0,-50%);
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     line-height: 2.5em;
