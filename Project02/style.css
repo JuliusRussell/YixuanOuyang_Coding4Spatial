@@ -54,6 +54,7 @@ header {
     flex-direction: column;
     position: absolute;
     top:20vh;
+    bottom: 20vh;
     left: 45%;
     width: 55%;
     line-height: 60px;
@@ -99,8 +100,8 @@ br {
 
 .homebutton {
     position: absolute;
-    top: 570px;
-    right:10px;
+    top: 10px;
+    left:10px;
     padding: 0px 10px;
 }
 
