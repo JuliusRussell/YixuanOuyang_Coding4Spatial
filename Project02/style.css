@@ -23,11 +23,11 @@ body {
 
 header {
     position: absolute;
-    top: 40vh;
     right: 58%;
     width: 350px;
     display: flex;
-    justify-content: center;
+    top: 50%;
+    transform: translate(0,-50%);
     align-items: center;
     flex-direction: column;
     line-height: 2.5em;
@@ -53,8 +53,8 @@ header {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top:20vh;
-    bottom: 20vh;
+    top: 50%;
+    transform: translate(0,-50%);
     left: 45%;
     width: 55%;
     line-height: 60px;
