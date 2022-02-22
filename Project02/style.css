@@ -23,7 +23,7 @@ body {
 
 header {
     position: absolute;
-    top: 40%;
+    top: 40vh;
     right: 58%;
     width: 350px;
     display: flex;
@@ -53,7 +53,7 @@ header {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top:10%;
+    top:20vh;
     left: 45%;
     width: 55%;
     line-height: 60px;
