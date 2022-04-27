@@ -20,6 +20,12 @@ body {
     font-size: 14px;
 }
 
+.music {
+    position: fixed;
+    right: 0;
+    top: 25px;
+}
+
 h2 {
     font-size: 2.5em;
 }
